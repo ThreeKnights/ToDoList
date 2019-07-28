@@ -1,23 +1,13 @@
 body{
-  background: #1D3752; 
+  /* background: #1D3752;  */
+  background-image:url(/images/background1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
   color: #F7F6EE;
 }
-/* ?header style */
+
 .header{
-  margin: 50px;
-  border-bottom: 10px solid white;
-  border-top: 10px solid white;
-  border-radius: 50px 50px 50px 50px;
-  transition: 3s ;
-} 
-
-.title{
-  font-size: 80px;
+  font-size: 100px;
 }
-/* ?header style */
-
-/* ? Tasktaker */
-.tasktaker{
-  width: 500px;
-}
-/* ? Tasktaker */
