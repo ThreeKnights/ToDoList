@@ -5,9 +5,47 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
-  color: #F7F6EE;
+  color: white;
 }
 
 .header{
   font-size: 100px;
+}
+
+.tasktaker{
+  margin: 40px;
+  font-size: 40px;
+  padding: 10px;
+  background: transparent;
+  outline: 0;
+  /* height: 80px; */
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px white solid;
+  color: white;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.tasktaker:focus{
+  background: transparent;
+  outline: 0;
+}
+
+
+.BtnCustom{
+  text-align: center;
+  border: none;
+  padding-bottom: 150px;
+  margin-top: 90px;
+  margin-left: -110px;
+  background-color: transparent;
+  color: white;
+  font-size: 70px;
+}
+
+.BtnCustom:hover{
+  transition: all 2s ease-in;
+  outline: none;
 }
